@@ -7,39 +7,39 @@
 // on the stack. 
 push constant 17
 push constant 17
-eq
+eq // 256
 push constant 17
 push constant 16
-eq
+eq //257
 push constant 16
 push constant 17
-eq
+eq // 258
 push constant 892
 push constant 891
-lt
+lt // 259
 push constant 891
 push constant 892
-lt
+lt // 260
 push constant 891
 push constant 891
-lt
+lt // 261
 push constant 32767
 push constant 32766
-gt
+gt // 262
 push constant 32766
 push constant 32767
-gt
+gt // 263
 push constant 32766
 push constant 32766
-gt
+gt // 264
 push constant 57
 push constant 31
 push constant 53
-add
+add // 266
 push constant 112
-sub
-neg
-and
+sub // 266
+neg // 266
+and // 265 //24
 push constant 82
-or
-not
+or // 265
+not // 265
